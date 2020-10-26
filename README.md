@@ -9,6 +9,16 @@
 
 [Fastify](https://github.com/fastify/fastify) plugin to handle [Telegraf's](https://github.com/telegraf/telegraf) webhook with Typescript support
 
+## Install
+
+```sh
+npm i fastify-telegraf
+
+// or
+
+yarn add fastify-telegraf
+```
+
 ## Example
 
 Given the following code:
