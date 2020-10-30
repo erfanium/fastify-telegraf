@@ -11,11 +11,11 @@ test('should call bot.handleUpdate method', (t) => {
   const fastify = Fastify()
   const bot = new Telegraf('T')
 
-  bot.handleUpdate = (update) => {
+  bot.handleUpdate = (update, response) => {
     t.deepEqual(update, { foo: 'bar' })
+    t.assert(response)
+    t.done()
   }
-
-  setTimeout(() => t.done(), 100)
 
   fastify.register(plugin, { bot, path: '/secret' })
 
