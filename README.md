@@ -35,6 +35,9 @@ fastify.listen(8000, (err) => {
 })
 ```
 
+### Note
+Use fastify-telegraf@1.0.1 for telegraf v3 (if there's problem)
+
 ## License
 
 Licensed under [MIT](./LICENSE)
