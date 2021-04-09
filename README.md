@@ -35,8 +35,8 @@ fastify.listen(8000, (err) => {
 })
 ```
 
-### Note
-Use fastify-telegraf@1.0.1 for telegraf v3
+### Fastify 3.x.x compatibility
+Use fastify-telegraf@1.0.1
 
 ## License
 
