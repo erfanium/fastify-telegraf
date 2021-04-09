@@ -5,7 +5,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Known Vulnerabilities](https://snyk.io/test/github/erfanium/fastify-telegraf/badge.svg)](https://snyk.io/test/github/erfanium/fastify-telegraf)
 
-[Fastify](https://github.com/fastify/fastify) plugin to handle [Telegraf's](https://github.com/telegraf/telegraf) webhook with Typescript support
+[Fastify](https://github.com/fastify/fastify) plugin to handle [Telegraf's](https://github.com/telegraf/telegraf) webhook with Typescript support, supports fastify 4.x.x
 
 ## Install
 
@@ -36,7 +36,7 @@ fastify.listen(8000, (err) => {
 ```
 
 ### Note
-Use fastify-telegraf@1.0.1 for telegraf v3 (if there's problem)
+Use fastify-telegraf@1.0.1 for telegraf v3
 
 ## License
 
